@@ -1,11 +1,88 @@
-Woah! Looking for some fun are you? Let's get you to a random page! <br>
+Woah! Looking for some fun are you? Let's get you to a random page!
 
 <button onclick="surprise()">Surprise me!!</button>
 
 <script>
     function surprise(){
         let randnumber = Math.random() * 26;
-        console.log(randnumber)
-       
+        randnumber = Math.round(randnumber); //no idea if this is the typical way of doing this, i tried int(randnumber) and it didnt work xd
+        if (randnumber === 1) {
+            location.href = '/blog';
+        }
+        else if (randnumber === 2) {
+            location.href = '/commission';
+        }
+        else if (randnumber === 3) {
+            location.href = '/dhilly';
+        }
+        else if (randnumber === 4) {
+            location.href = '/dhilly/1';
+        }
+        else if (randnumber === 5) {
+            location.href = '/dhilly/1/game';
+        }
+        else if (randnumber === 6) {
+            location.href = '/dhilly/2';
+        }
+        else if (randnumber === 7) {
+            location.href = '/dhilly/2/game';
+        }
+        else if (randnumber === 8) {
+            location.href = '/dhilly/3';
+        }
+        else if (randnumber === 9) {
+            location.href = '/dhilly/3/game';
+        }
+        else if (randnumber === 10) {
+            location.href = '/dhilly/4';
+        }
+        else if (randnumber === 11) {
+            location.href = '/dhilly/4/game';
+        }
+        else if (randnumber === 12) {
+            location.href = '/dhilly/5';
+        }
+        else if (randnumber === 13) {
+            location.href = '/dhilly/5/game';
+        }
+        else if (randnumber === 14) {
+            location.href = '/dhilly/game';
+        }
+        else if (randnumber === 15) {
+            location.href = '/fitbit';
+        }
+        else if (randnumber === 16) {
+            location.href = '/flash';
+        }
+        else if (randnumber === 17) {
+            location.href = '/flash/ruffle.html';
+        }
+        else if (randnumber === 18) {
+            location.href = '/iceos';
+        }
+        else if (randnumber === 19) {
+            location.href = '/media';
+        }
+        else if (randnumber === 20) {
+            location.href = '/mikuam';
+        }
+        else if (randnumber === 21) {
+            location.href = '/pokemon';
+        }
+        else if (randnumber === 22) {
+            location.href = '/rand';
+        }
+        else if (randnumber === 23) {
+            location.href = '/dhilly6demo';
+        }
+        else if (randnumber === 24) {
+            location.href = '/soberapk';
+        }
+        else if (randnumber === 25) {
+            location.href = '/wallpapers';
+        }
+        else if (randnumber === 26) {
+            location.href = '/logplayer';
+        }
     }
 </script>
