@@ -17,14 +17,13 @@ function getCode() {
 }
 
 function stopcheating(andplaythegameproperly) {
-    let binaryArray = andplaythegameproperly.match(/.{1,8}/g);
-    if (!binaryArray) return "";
+    let totallynotthecodeconvertedtobinary = andplaythegameproperly.match(/.{1,8}/g);
+    if (!totallynotthecodeconvertedtobinary) return "";
 
-    let text = binaryArray.map(bin => String.fromCharCode(parseInt(bin, 2))).join('');
+    let text = totallynotthecodeconvertedtobinary.map(bin => String.fromCharCode(parseInt(bin, 2))).join('');
     
     return text;
 }
 </script>
-
-
+<br> <br> <a href="/">I give up. Take me back to "Eve's Website".</a>
 </body>
