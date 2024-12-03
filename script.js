@@ -1,8 +1,13 @@
-  async function fetchNowPlaying() {
+async function fetchNowPlaying() {
   let nowplayingtext = "Getting data!";
   const lastfm_username = 'eveisinsane';
   const lastfm_apiKey = '9d9d0986fbd8191b0f60c42032ac6ac8';
   const lastfm_apiurl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${lastfm_username}&api_key=${lastfm_apiKey}&format=json&limit=1`;
+
+  if (
+    /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) && localStorage.getItem("preferDesktop") !== "true"){
+    window.location.href = "https://bottom.monster/mobile";
+}
 
   try {
     const response = await fetch(lastfm_apiurl);
@@ -27,6 +32,6 @@
 }
 fetchNowPlaying();
 
-function discord(){
+function discord() {
   alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan")
 }
