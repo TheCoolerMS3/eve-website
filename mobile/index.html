@@ -13,16 +13,18 @@
         }
     </style>
     <script>
-        function desktopsite() {
+        // This function sets the event listener when the page loads
+        window.onload = function() {
             document.getElementById("toDesktop").addEventListener("click", () => {
                 // Set a flag in localStorage to remember the user's choice
                 localStorage.setItem("preferDesktop", "true");
                 // Redirect to the desktop site
                 window.location.href = "https://bottom.monster"; // Replace with your desktop site URL
             });
-        }
+        };
+
         function discord() {
-            alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan")
+            alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan");
         }
     </script>
 </head>
@@ -35,6 +37,6 @@
     <a href="https://github.com/TheCoolerMS3/"><img src="GitHub.png"></a>
     <a onclick="discord()"><img src="Discord.png"></a>
     <a href="mailto:eve@bottom.monster"><img src="Mail.png"></a>
-    <a onclick="desktopsite()"><img src="EveSite.png"></a>
+    <a id="toDesktop"><img src="EveSite.png"></a>
 </body>
 </html>
