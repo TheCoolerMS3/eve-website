@@ -21,7 +21,47 @@ async function fetchNowPlaying() {
 
       nowplayingtext = `I am currently listening to ${songTitle} by ${artist}`;
     } else {
-      nowplayingtext = "I am not streaming any music right now!";
+      let randnumber = Math.random() * 7;
+      randnumber = Math.round(randnumber);
+      if (randnumber === 1){
+        nowplayingtext = "DIY or die!!"
+      }
+      else if (randnumber === 2){
+        nowplayingtext = "Hack Club is awesome!"
+      }
+      else if (randnumber === 3){
+        nowplayingtext = "This site loads* on a Wii!"
+      }
+      else if (randnumber === 4){
+        nowplayingtext = '"Funded" by High Seas!'
+      }
+      else if (randnumber === 5){
+        nowplayingtext = 'I love you Intervals'
+      }
+      else if (randnumber === 6){
+        nowplayingtext = 'Be gay, do crime!'
+      }
+      else if (randnumber === 7){
+        nowplayingtext = 'ok get lenned!'
+      }
+      else if (randnumber === 8){
+        nowplayingtext = 'ok get canned!'
+      }
+      else if (randnumber === 9){
+        nowplayingtext = 'Still enjoying Len!'
+      }
+      else if (randnumber === 10){
+        nowplayingtext = 'Fuck YuaBeVibin'
+      }
+      else if (randnumber === 11){
+        nowplayingtext = 'Watch ONE by Cheesy Hfj'
+      }
+      else if (randnumber === 12){
+        nowplayingtext = "Fuck Musk, Fuck Notch, I'll piss on Zedd!"
+      }
+      else if (randnumber === 13){
+        nowplayingtext = "Easter eggs are in check!"
+      }
     }
   } catch (error) {
     console.error('Error fetching now playing data:', error);
@@ -35,3 +75,4 @@ fetchNowPlaying();
 function discord() {
   alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan")
 }
+
