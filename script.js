@@ -9,19 +9,19 @@ async function fetchNowPlaying() {
         nowplayingtext = '<a href="https://hackclub.com/">Hack Club</a> is awesome!'
       }
       else if (randnumber === 3){
-        nowplayingtext = "This site loads* on a Wii!"
+        nowplayingtext = '<a href="/media/wii.jpg">This site loads* on a Wii!</a>'
       }
       else if (randnumber === 4){
-        nowplayingtext = '"Funded" by High Seas!'
+        nowplayingtext = '"Funded" by <a href="https://highseas.hackclub.com/">High Seas!</a>'
       }
       else if (randnumber === 5){
-        nowplayingtext = 'I love you Intervals'
+        nowplayingtext = 'I love you <a href="https://libreivan.com">Intervals</a>'
       }
       else if (randnumber === 6){
         nowplayingtext = 'Be gay, do crime!'
       }
       else if (randnumber === 7){
-        nowplayingtext = 'ok get lenned!'
+        nowplayingtext = 'ok get <a href="https://tenor.com/en-GB/view/kagamine-len-get-lenned-fruity-spice-minato-gif-22375519">lenned</a>!'
       }
       else if (randnumber === 8){
         nowplayingtext = 'ok get canned!'
@@ -33,10 +33,10 @@ async function fetchNowPlaying() {
         nowplayingtext = 'Fuck YuaBeVibin'
       }
       else if (randnumber === 11){
-        nowplayingtext = 'Watch ONE by Cheesy Hfj'
+        nowplayingtext = '<a href="https://www.youtube.com/watch?v=cE2hd1mKDZM&list=PLibm-rpGR0iD8pJdfYJCFtw4OZUxuUCuM">Watch ONE by Cheesy Hfj</a>'
       }
       else if (randnumber === 12){
-        nowplayingtext = "Fuck Musk, Fuck Notch, I'll piss on Zedd!"
+        nowplayingtext = "<a href='https://www.youtube.com/watch?v=khmjbZtMrJQ&pp=ygUKdGhvcyBtb3Nlcg%3D%3D'>Fuck Musk, Fuck Notch, I'll piss on Zedd!</a>"
       }
       else if (randnumber === 13){
         nowplayingtext = "Easter eggs are in check!"
