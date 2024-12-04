@@ -6,7 +6,7 @@ async function fetchNowPlaying() {
         nowplayingtext = "DIY or die!!"
       }
       else if (randnumber === 2){
-        nowplayingtext = "Hack Club is awesome!"
+        nowplayingtext = '<a href="https://hackclub.com/">Hack Club</a> is awesome!'
       }
       else if (randnumber === 3){
         nowplayingtext = "This site loads* on a Wii!"
