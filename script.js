@@ -21,7 +21,7 @@ async function fetchNowPlaying() {
 
       nowplayingtext = `I am currently listening to ${songTitle} by ${artist}`;
     } else {
-      let randnumber = Math.random() * 7;
+      let randnumber = Math.random() * 13;
       randnumber = Math.round(randnumber);
       if (randnumber === 1){
         nowplayingtext = "DIY or die!!"
