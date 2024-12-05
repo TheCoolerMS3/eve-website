@@ -45,7 +45,7 @@ async function fetchNowPlaying() {
         nowplayingtext = "It's <a href='https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7?si=LdOCJRQcQY-lrYbMGOHhBA'>BRAT</a> Winter!"
       }
       else if (randnumber === 15){
-        nowplayingtext = "Fuck browser monopolies, switch to <a href='https://www.mozilla.org/firefox/'>Firefox</a>, <a href='https://www.apple.com/safari/'>Safari</a> or <a href='https://ladybird.org/'>Ladybird</a> to protect the open web!"
+        nowplayingtext = "Screw browser monopolies, switch to <a href='https://www.mozilla.org/firefox/'>Firefox</a>, <a href='https://www.apple.com/safari/'>Safari</a> or <a href='https://ladybird.org/'>Ladybird</a> to protect the open web!"
       }
   const lastfm_username = 'eveisinsane';
   const lastfm_apiKey = '9d9d0986fbd8191b0f60c42032ac6ac8';
