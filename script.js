@@ -42,7 +42,7 @@ async function fetchNowPlaying() {
         nowplayingtext = "Easter eggs are in check!"
       }
       else if (randnumber === 14){
-        nowplayingtext = "It's <a href='https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7?si=LdOCJRQcQY-lrYbMGOHhBA'>BRAT</a> Winter!"
+        nowplayingtext = "It's <a href='https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7?si=LdOCJRQcQY-lrYbMGOHhBA'>BRAT</a> winter!"
       }
       else if (randnumber === 15){
         nowplayingtext = "Screw browser monopolies, switch to <a href='https://www.mozilla.org/firefox/'>Firefox</a>, <a href='https://www.apple.com/safari/'>Safari</a> or <a href='https://ladybird.org/'>Ladybird</a> to protect the open web!"
