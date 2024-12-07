@@ -12,7 +12,7 @@ async function fetchNowPlaying() {
         nowplayingtext = '<a href="/media/wii.jpg">This site loads* on a Wii!</a>'
       }
       else if (randnumber === 4){
-        nowplayingtext = '"Funded" by <a href="https://highseas.hackclub.com/">High Seas!</a>'
+        nowplayingtext = '"Funded" by <a href="https://ahoy.hack.club/1648">High Seas!</a>'
       }
       else if (randnumber === 5){
         nowplayingtext = 'I love you <a href="https://libreivan.com">Intervals</a>'
