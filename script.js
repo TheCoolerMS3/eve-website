@@ -1,6 +1,6 @@
 async function fetchNowPlaying() {
   let nowplayingtext = "";
-  let randnumber = Math.random() * 15;
+  let randnumber = Math.random() * 18;
       randnumber = Math.round(randnumber);
       if (randnumber === 1){
         nowplayingtext = "DIY or die!!"
@@ -46,6 +46,15 @@ async function fetchNowPlaying() {
       }
       else if (randnumber === 15){
         nowplayingtext = "Screw browser monopolies, switch to <a href='https://www.mozilla.org/firefox/'>Firefox</a>, <a href='https://www.apple.com/safari/'>Safari</a> or <a href='https://ladybird.org/'>Ladybird</a> to protect the open web!"
+      }
+      else if (randnumber === 16){
+        nowplayingtext = "<a href='https://www.youtube.com/watch?v=iZ_P3F3nA1U&pp=ygUKY2FibmV0IG1hbg%3D%3D'>You can't see me behind the screen - I'm half human and half machine!</a>"
+      }
+      else if (randnumber === 17){
+        nowplayingtext = "<a href='https://www.youtube.com/watch?v=ZlVUXLBJg14&pp=ygUOMTIzNDU2IHBva2Vtb24%3D'>One Two Three Four Five Six Pokemon! Who are you gonna vote for? BARACK OBAMA!</a>"
+      }
+      else if (randnumber === 18){
+        nowplayingtext = "<a href='https://www.youtube.com/watch?v=wSHhzOCnSf4&pp=ygUaY29uc3VtZXIgd2hvcmUgbGVtb24gZGVtb24%3D'>I am okay, because I got my cute little Nokia cell-phone!</a>"
       }
   const lastfm_username = 'eveisinsane';
   const lastfm_apiKey = '9d9d0986fbd8191b0f60c42032ac6ac8';
