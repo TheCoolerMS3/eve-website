@@ -1,6 +1,6 @@
 async function fetchNowPlaying() {
   let nowplayingtext = "";
-  let randnumber = Math.random() * 18;
+  let randnumber = Math.random() * 19;
       randnumber = Math.round(randnumber);
       if (randnumber === 1){
         nowplayingtext = "DIY or die!!"
@@ -55,6 +55,12 @@ async function fetchNowPlaying() {
       }
       else if (randnumber === 18){
         nowplayingtext = "<a href='https://www.youtube.com/watch?v=wSHhzOCnSf4&pp=ygUaY29uc3VtZXIgd2hvcmUgbGVtb24gZGVtb24%3D'>I am okay, because I got my cute little Nokia cell-phone!</a>"
+      }
+      else if (randnumber === 19){
+        nowplayingtext = "Statistically speaking, you who is reading this is almost certainly mentally ill"
+      }
+      else if (randnumber === 20){
+        nowplayingtext = "What us girls really need is a <a href='https://youtu.be/pjeF8aiQgLU?si=KXdfaav7hTJyqCay'>Soft Fuzzy Man</a>"
       }
   const lastfm_username = 'eveisinsane';
   const lastfm_apiKey = '9d9d0986fbd8191b0f60c42032ac6ac8';
