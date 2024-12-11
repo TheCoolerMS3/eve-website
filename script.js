@@ -1,6 +1,6 @@
 async function fetchNowPlaying() {
   let nowplayingtext = "";
-  let randnumber = Math.random() * 19;
+  let randnumber = Math.random() * 20;
       randnumber = Math.round(randnumber);
       if (randnumber === 1){
         nowplayingtext = "DIY or die!!"
