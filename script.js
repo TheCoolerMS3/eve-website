@@ -26,11 +26,10 @@ async function getSplashVariable() {
     console.error('Error getting splash: ', error);
     splash = 'Splash error, check console';
   }
+  document.getElementById("splash").innerHTML = splash;
 }
 
-getSplashVariable().then(() => {
-  document.getElementById("splash").innerHTML = splash;
-});
+getSplashVariable()
 
 function discord() {
   alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan");
