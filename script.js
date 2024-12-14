@@ -6,25 +6,28 @@ const lastfm_apiKey = '9d9d0986fbd8191b0f60c42032ac6ac8';
 // You should keep this the same :D
 const lastfm_apiurl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${lastfm_username}&api_key=${lastfm_apiKey}&format=json&limit=1`;
 
-try { 
-  const response = await fetch(lastfm_apiurl);
-  const data = await response.json();
-  const track = data.recenttracks.track[0];
+async function getSplashVariable() {
+  try {
+    const response = await fetch(lastfm_apiurl);
+    const data = await response.json();
+    const track = data.recenttracks.track[0];
 
-  if (track && track['@attr'] && track['@attr'].nowplaying) { // If I'm currently streaming music (according to the LastFM API), display that!
-    const artist = track.artist['#text'];
-    const songTitle = track.name;
-    let splash = `I am currently listening to ${songTitle} by ${artist}`;
+    if (track && track['@attr'] && track['@attr'].nowplaying) { // If I'm currently streaming music (according to the LastFM API), display that!
+      const artist = track.artist['#text'];
+      const songTitle = track.name;
+      let splash = `I am currently listening to ${songTitle} by ${artist}`;
+    }
+    else { // Elsewise, display a fun splash!
+      let randnumber = Math.floor(Math.random() * splashes.length);
+      let splash = splashes[randnumber];
+    }
+  } catch (error) {
+    console.error('Error getting splash: ', error);
+    let splash = 'Splash error, check console';
   }
-  else { // Elsewise, display a fun splash!
-    let randnumber = Math.floor(Math.random() * splashes.length);
-    let splash = splashes[randnumber];
-  }
-} catch (error) {
-  console.error('Error getting splash: ', error);
-  let splash = 'Splash error, check console';
 }
 
+getSplashVariable();
 document.getElementById("splash").innerHTML = splash;
 
 function discord() {
