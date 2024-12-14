@@ -29,7 +29,7 @@ async function getSplashVariable() {
 }
 
 getSplashVariable();
-document.getElementById("thesplash").innerHTML = splash;
+document.getElementById("splash").innerHTML = splash;
 
 function discord() {
   alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan");
