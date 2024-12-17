@@ -20,13 +20,11 @@ body {
 <body>
 <div class="talyniscool">
 
-
-
 <a onclick="surprise()"><img style="cursor: pointer;" width="321" src="randomizer.png"></a>
 <script>
     function surprise(){
         let randnumber = Math.random() * 37;
-        randnumber = Math.round(randnumber); //no idea if this is the typical way of doing this, i tried int(randnumber) and it didnt work xd
+        randnumber = Math.round(randnumber); // todo: make all of this array (until then? cry about it :3)
         if (randnumber === 1) {
             location.href = '/blog';
         }
