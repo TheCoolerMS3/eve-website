@@ -22,21 +22,21 @@ async function getSplashVariable() {
     else { // Elsewise, display a fun splash!
       let randnumber = Math.floor(Math.random() * splashes.length);
       splash = splashes[randnumber];
-    }
+    };
   } catch (error) {
     console.error('Error getting splash: ', error);
     splash = 'Splash error, check console';
-  }
+  };
   document.getElementById("splash").innerHTML = splash;
 }
 }
 catch{
-  splash = "I suspect you're on a really old browser, have fun with that."
-}
+  splash = "I suspect you're on a really old browser, have fun with that.";
+};
 
 getSplashVariable();
 
 function discord() {
   alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan");
-}
+};
 
