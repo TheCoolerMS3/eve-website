@@ -5,3 +5,5 @@ Supports:
 * Chromium
 * Firefox
 * Safari
+
+Made (in part) for Hack Club's High Seas
