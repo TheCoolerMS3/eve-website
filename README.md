@@ -1,5 +1,5 @@
 # eve-website
- My website, hosted at bottom.monster
+ My website, hosted at https://bottom.monster
 
 Supports:
 * Chromium
