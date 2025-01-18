@@ -6,4 +6,9 @@ Supports:
 * Firefox
 * Safari
 
+Languages:
+* HTML
+* CSS
+* JavaScript
+
 Made (in part) for Hack Club's High Seas
