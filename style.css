@@ -21,25 +21,3 @@ body {
   display: block;
   margin: auto;
 }
-
-.chatgptscoolermarquee {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-}
-
-.chatgptscoolermarquee__inner {
-  display: inline-block;
-  white-space: nowrap;
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes chatgptscoolermarquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
