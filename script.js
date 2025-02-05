@@ -33,6 +33,7 @@ async function getSplashVariable() {
   } catch (error) {
     console.error('Error getting splash: ', error);
     splash = 'Splash error, check console';
+    trackimgs = ''
   }
 
   document.getElementById("splash").innerHTML = splash;
