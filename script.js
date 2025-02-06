@@ -43,5 +43,5 @@ async function getSplashVariable() {
 getSplashVariable()
 
 function discord() {
-  alert("My discord name is @lenenjoyerr , I also have an account for Pxls called @greenwizardfan");
+  alert("My discord name is @lenenjoyer , I also have an account for Pxls called @greenwizardfan");
 }
