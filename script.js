@@ -41,7 +41,7 @@ async function getSplashVariable() {
   document.getElementById("trackimgs").innerHTML = trackimgs;
 }
 
-if(allowlastfmintergration === "true"){
+if(allowlastfmintergration === true){
   getSplashVariable();
 }
 else{
