@@ -47,7 +47,7 @@ if(allowlastfmintergration === true){
 else{
   document.getElementById("splash").innerHTML = "LastFM integration has been temporarily disabled. DM me for more information";
   document.getElementById("trackimgs").innerHTML = "";
-  console.log("Info: The killswitch for LastFM integration is on at the minute for one reason or a another. Type getSplashVariable() to bypass this.")
+  console.log("Info: The killswitch for LastFM integration is on. Type getSplashVariable() to bypass this.")
 }
 function discord() {
   alert("My discord name is @lenenjoyer , I also have an account for Pxls called @greenwizardfan");
