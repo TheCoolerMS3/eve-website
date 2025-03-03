@@ -51,3 +51,13 @@ else{
 function discord() {
   alert("My discord name is @lenenjoyer , I also have an account for Pxls called @greenwizardfan");
 }
+
+// was working on this in class but ill finish it later
+function hilariousxssfeature(){
+    document.getElementById("xss").innerHTML = "<p><form action='javascript:;' onsubmit='applyXSS(document.getElementById(\"xssinput\").value)'><label for='xssinput'>Enter HTML: </label><input type='text' id='xssinput' name='xssinput' value='I just hacked Bottom.Monster!'><input type='submit' value='Apply my epic HTML'></form></p>";
+}
+
+function applyXSS(text){
+    var element = document.getElementById("xssapplyarea");
+    element.innerHTML = text;
+}
