@@ -1,32 +1,18 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
 .sitebox {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: stretch; /* Stretch children to the same height */
+    height: 100vh; /* Optional: Full viewport height */
 }
-
 .left {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  text-align: center;
-  line-height: 100px;
-  border-radius: 8px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px
 }
-
-.left {
-  width: 200;
-  height: 100px;
-  background-color: lightblue;
-  text-align: center;
-  line-height: 100px;
-  border-radius: 8px;
+.right {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px
 }
 
 .centerAdaptiveImg {
@@ -35,7 +21,9 @@ body {
   display: block;
   margin: auto;
 }
-
-.buttons{
-  color: white;
+body{
+background-image: url("media/bg.png");
+margin: auto;
+background-repeat: repeat;
+  font-family: 'DM Sans', sans-serif
 }
