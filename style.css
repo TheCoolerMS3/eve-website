@@ -1,18 +1,30 @@
+body {
+  background-image: url("media/bg.png");
+  background-repeat: repeat;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .sitebox {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: stretch; /* Stretch children to the same height */
-    height: 100vh; /* Optional: Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;  /* Ensures left and right boxes are the same height */
 }
+
 .left {
-    width: 300px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px
+  width: 300px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
 }
+
 .right {
-    width: 500px;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 10px
+  width: 500px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
 }
 
 .centerAdaptiveImg {
@@ -21,9 +33,4 @@
   display: block;
   margin: auto;
 }
-body{
-background-image: url("media/bg.png");
-margin: auto;
-background-repeat: repeat;
-  font-family: 'DM Sans', sans-serif
-}
+
