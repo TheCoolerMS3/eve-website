@@ -34,3 +34,8 @@ body {
   margin: auto;
 }
 
+.ad{
+width: 280px;
+height: 280px;
+background-image: url("/media/ads/border.png");
+}
