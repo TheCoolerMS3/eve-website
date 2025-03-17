@@ -27,7 +27,7 @@ async function getSplashVariable() { // I still don't understand why, but this n
       let randnumber = Math.floor(Math.random() * splashes.length); // Gets a random number between zero and the length of the splashes array 
       splash = splashes[randnumber]; // Uses the array entry of randomly selected number for the splash variable
     }
-    for (let i = 0; i < data.recenttracks.track.length; i++) { // Loops for the amount of tracks in that JSON file, increments i
+    for (let i = 0; i < 8; i++) { // Loops for the amount of tracks in that JSON file, increments i
       if (data.recenttracks.track[i].image.length > 1) { // Runs if there is an image in that track's data
         trackimgs += `<a href="${data.recenttracks.track[i].url}"> <img width="60px" src="${data.recenttracks.track[i].image[1]["#text"]}"></a> `; // Appends track i's image and link to trackimgs 
       }
@@ -55,4 +55,8 @@ function discord() {
 
 
 function createAd(){
+const ads = ["3d.png", "bfdionyowrist.png", "eveplaylist4.png"]
+document.getElementById("adthingy").innerHTML = "<img width='260px' src='/media/ads/" + ads[Math.floor(Math.random() * ads.length)] + "'>"
 }
+
+createAd()
