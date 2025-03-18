@@ -60,3 +60,9 @@ document.getElementById("adthingy").innerHTML = "<img width='260px' src='/media/
 }
 
 createAd()
+
+document.addEventListener("mouseover", function(event) {
+  if (event.target.tagName === "IMG") {
+      document.getElementById("currentselect").innerHTML = "Currently Hovering: " + event.target.alt
+  }
+});

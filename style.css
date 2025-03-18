@@ -7,13 +7,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-font-size: 20px;
+  font-size: 20px;
 }
 
 .sitebox {
   display: flex;
   justify-content: center;
   align-items: stretch;
+}
+
+.left, .right {
+  flex-shrink: 0; /* Prevent resizing */
+  height: 400px; /* Fixed height */
+  overflow: auto; /* Enables scrolling if content overflows */
 }
 
 .left {
