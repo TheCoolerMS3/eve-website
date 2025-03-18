@@ -18,7 +18,7 @@ body {
 
 .left, .right {
   flex-shrink: 0; /* Prevent resizing */
-  height: 500px; /* Fixed height */
+  height: 600px; /* Fixed height */
   overflow: auto; /* Enables scrolling if content overflows */
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .right {
-  width: 600px;
+  width: 500px;
   background: rgba(255, 255, 255, 0.7);
   padding: 15px;
 }
