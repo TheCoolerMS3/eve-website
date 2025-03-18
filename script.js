@@ -56,7 +56,7 @@ function discord() {
 
 function createAd(){
 const ads = ["3d.png", "bfdionyowrist.png", "eveplaylist4.png"]
-document.getElementById("adthingy").innerHTML = "<img width='260px' src='/media/ads/" + ads[Math.floor(Math.random() * ads.length)] + "'>"
+document.getElementById("showcasethingy").innerHTML = "<img width='260px' src='/media/ads/" + ads[Math.floor(Math.random() * ads.length)] + "'>"
 }
 
 createAd()
