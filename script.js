@@ -63,6 +63,6 @@ createAd()
 
 document.addEventListener("mouseover", function(event) {
   if (event.target.tagName === "IMG") {
-      document.getElementById("currentselect").innerHTML = `<img alt="<img src='media/pointer.png'" src='media/pointer.png': ` + event.target.alt + "<br><br>"
+      document.getElementById("currentselect").innerHTML = `<img alt="<img src='media/pointer.png'>" src='media/pointer.png'>: ` + event.target.alt + "<br><br>"
   }
 });
