@@ -29,7 +29,7 @@ async function getSplashVariable() { // I still don't understand why, but this n
     }
     for (let i = 0; i < 8; i++) { // Loops for the amount of tracks in that JSON file, increments i
       if (data.recenttracks.track[i].image.length > 1) { // Runs if there is an image in that track's data
-        trackimgs += `<a href="${data.recenttracks.track[i].url}"> <img width="60px" alt="${data.recenttracks.track[i].artist} - ${data.recenttracks.track[i].artist}" src="${data.recenttracks.track[i].image[1]["#text"]}"></a> `; // Appends track i's image and link to trackimgs 
+        trackimgs += `<a href="${data.recenttracks.track[i].url}"> <img width="60px" alt="${data.recenttracks.track[i].artist} - ${data.recenttracks.track[i].name}" src="${data.recenttracks.track[i].image[1]["#text"]}"></a> `;
       }
     }
  trackimgs += `<br>`
