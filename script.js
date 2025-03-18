@@ -63,6 +63,6 @@ createAd()
 
 document.addEventListener("mouseover", function(event) {
   if (event.target.tagName === "IMG") {
-      document.getElementById("currentselect").innerHTML = "Currently Hovering: " + event.target.alt
+      document.getElementById("currentselect").innerHTML = "<br>Currently Hovering: " + event.target.alt + "<br>"
   }
 });
