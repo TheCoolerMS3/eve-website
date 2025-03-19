@@ -56,7 +56,9 @@ function discord() {
 
 function createAd(){
 const ads = ["3d.png", "bfdionyowrist.png", "eveplaylist4.png"]
-document.getElementById("showcasethingy").innerHTML = "<img width='260px' src='/media/ads/" + ads[Math.floor(Math.random() * ads.length)] + "'>"
+let randnumber2 =  Math.floor(Math.random() * ads.length)
+const adlinks = ["https://3d.bottom.monster", "https://gallery.fitbit.com/details/5049cf2d-61d5-47c3-92a4-b7f6858c0443", "https://open.spotify.com/playlist/6XV9M0tU7RTCf7mH40FrXd?si=kkOtTEzOQTKHcECNymaL5A"]
+document.getElementById("showcasethingy").innerHTML = "<a href='" + adlinks[randnumber2] + "'><img width='260px' src='/media/ads/" + ads[randnumber2] + "'></a>"
 }
 
 createAd()
