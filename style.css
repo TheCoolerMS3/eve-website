@@ -44,7 +44,7 @@ body {
 .showcase{
 width: 260px;
 height: 260px;
-background-image: url("/media/ads/border.png");
+background-image: url("/media/showcase/border.png");
 padding: 10px;
 margin-bottom: 5px
 }
