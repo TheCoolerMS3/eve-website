@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("media/bg.png");
+  background-repeat: repeat;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.left, .right {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+
+.right {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.centerAdaptiveImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
