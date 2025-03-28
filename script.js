@@ -79,7 +79,28 @@ var splashes = [
   "Hey contestants, this is Circle, and welcome to the Battle for Circle",
   "You 6 are here, specifically, to compete in my competition, called ONE.",
   "<a href='https://www.youtube.com/watch?v=71E_uF0f_XA&pp=ygUTc29tZXRpbWVzIHBlYXJsIGthbQ%3D%3D'>Sometimes</a> I rise, sometimes I fall, sometimes I don't, sometimes I speak of nothing at all",
-  "You don't seem to carry empathy empathy, don't seem to notice hurting me hurting me"
+  "You don't seem to carry empathy empathy, don't seem to notice hurting me hurting me",
+  "I don't know who needs to hear this, but Lain is NOT a DID system and if you think she is you completely missed the point of the show :3",
+  "JavaScript? How about I console your log ;)",
+  "So why can't I stop being everyone's friend?! Why don't I want conversation to end?!",
+  "Can you really call it hyperpop if this beat is more cybergrind mixed up with digicore?",
+  "There was a period of time you were my only friend, if somebody met me eventually they'd have to meet you, I look back on these times and think too much and get myself sick",
+  "I GOTTA DO PENIS MUSIC I AM A DISEASE I'M TOO SICK THESE LOOSE ASS TIES ALL GREW THICK THESE DAY ONES IN MY GROUP PIC I GOTTA MAKE ALL THIS MUSIC I DO IT FOR THERAPUETIC I DO IT FOR MASSACHUSETTS I DO IT FOR FRAXIOM MUSIC!!!!!!!!!!!!",
+  "HAPPINESS PEACE AND LOVE EVEN WHEN IT SUCKS",
+  "Slash four Ts, don't fw that!! *ignore the fact that other splashes are /tttt/ references i'm recovering.*",
+  "I don't wanna be a loser, but I think that's where I'm heading",
+  "Don't talk shit about me, you know it makes me mad and it'll come back to bite you",
+  "If you make music then stop it, are you mad cuz I called you a wallet",
+  "I would write some cool Lain reference here, but I feel like the anime has been ruined by annoying people",
+  "Don't hesitate to maybe overcompensate",
+  "Give it for free to he/him lesbians",
+  "I got HRT for free at my own show in Denver",
+  "What about me makes me so special that I think I deserve your love?",
+  "What's up? Haven't seen you. What the fuck?! Used to regret what I did to you but now I can't forgive myself enough!",
+  "take you to kutna hora, we can spend hours heures horas..",
+  "I need a kind of therapy that hasn't been invented yet.",
+  "BIG DAY FOR ANNOYING PEOPLE, FRAXIOM IS BACK!",
+  "I don't want it at all, phone is dead I just stare at the wall"
 ];
 
 var splash = ""; // This variable will hold the splash text
