@@ -87,7 +87,7 @@ var splashes = [
   "There was a period of time you were my only friend, if somebody met me eventually they'd have to meet you, I look back on these times and think too much and get myself sick",
   "I GOTTA DO PENIS MUSIC I AM A DISEASE I'M TOO SICK THESE LOOSE ASS TIES ALL GREW THICK THESE DAY ONES IN MY GROUP PIC I GOTTA MAKE ALL THIS MUSIC I DO IT FOR THERAPUETIC I DO IT FOR MASSACHUSETTS I DO IT FOR FRAXIOM MUSIC!!!!!!!!!!!!",
   "HAPPINESS PEACE AND LOVE EVEN WHEN IT SUCKS",
-  "Slash four Ts, don't fw that!! *ignore the fact that other splashes are /tttt/ references i'm recovering.*",
+  "Slash four Ts, don't fw that!!",
   "I don't wanna be a loser, but I think that's where I'm heading",
   "Don't talk shit about me, you know it makes me mad and it'll come back to bite you",
   "If you make music then stop it, are you mad cuz I called you a wallet",
