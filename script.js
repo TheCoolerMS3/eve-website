@@ -91,7 +91,6 @@ var splashes = [
   "I don't wanna be a loser, but I think that's where I'm heading",
   "Don't talk shit about me, you know it makes me mad and it'll come back to bite you",
   "If you make music then stop it, are you mad cuz I called you a wallet",
-  "I would write some cool Lain reference here, but I feel like the anime has been ruined by annoying people",
   "Don't hesitate to maybe overcompensate",
   "Give it for free to he/him lesbians",
   "I got HRT for free at my own show in Denver",
