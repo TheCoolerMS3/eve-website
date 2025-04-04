@@ -99,7 +99,11 @@ var splashes = [
   "take you to kutna hora, we can spend hours heures horas..",
   "I need a kind of therapy that hasn't been invented yet.",
   "BIG DAY FOR ANNOYING PEOPLE, FRAXIOM IS BACK!",
-  "I don't want it at all, phone is dead I just stare at the wall"
+  "I don't want it at all, phone is dead I just stare at the wall",
+  "I am offering free ink and toner",
+  "I've got Oxycodone without a prescription",
+  "The government hates me but I know YOU love me!",
+  "You can own your name dot com!"
 ];
 
 var splash = ""; // This variable will hold the splash text
