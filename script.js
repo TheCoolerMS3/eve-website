@@ -103,7 +103,9 @@ var splashes = [
   "I am offering free ink and toner",
   "I've got Oxycodone without a prescription",
   "The government hates me but I know YOU love me!",
-  "You can own your name dot com!"
+  "You can own your name dot com!",
+  "If you see someone listening to intolerable hyperpop at a volume a bit too loud it might be me",
+  "Autistic, BPD or lonely? My favourite gameshow!"
 ];
 
 var splash = ""; // This variable will hold the splash text
