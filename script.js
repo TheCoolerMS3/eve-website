@@ -105,7 +105,8 @@ var splashes = [
   "The government hates me but I know YOU love me!",
   "You can own your name dot com!",
   "If you see someone listening to intolerable hyperpop at a volume a bit too loud it might be me",
-  "Autistic, BPD or lonely? My favourite gameshow!"
+  "Autistic, BPD or lonely? My favourite gameshow!",
+  "Stargazing in your eyes, I think you're so perfect so fucking perfect"
 ];
 
 var splash = ""; // This variable will hold the splash text
