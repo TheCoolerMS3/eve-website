@@ -96,7 +96,6 @@ var splashes = [
   "I got HRT for free at my own show in Denver",
   "What about me makes me so special that I think I deserve your love?",
   "What's up? Haven't seen you. What the fuck?! Used to regret what I did to you but now I can't forgive myself enough!",
-  "take you to kutna hora, we can spend hours heures horas..",
   "I need a kind of therapy that hasn't been invented yet.",
   "BIG DAY FOR ANNOYING PEOPLE, FRAXIOM IS BACK!",
   "I don't want it at all, phone is dead I just stare at the wall",
@@ -107,7 +106,13 @@ var splashes = [
   "If you see someone listening to intolerable hyperpop at a volume a bit too loud it might be me",
   "Autistic, BPD or lonely? My favourite gameshow!",
   "Stargazing in your eyes, I think you're so perfect so fucking perfect",
-  "I'll never stop talking about you ever, will you hold me till December?"
+  "I'll never stop talking about you ever, will you hold me till December?",
+  "Hope you're happy with him, you didn't have to waste my time! Used to care so much and all you did was fucking lie!",
+  "Just want you to trust me, I already trust you",
+  "You're so upset with me but I'm so obsessed with you!",
+  "I don't know where I am... but... I'm so in love with you!!",
+  "Never in the spotlight, always in the background, I'm about to pass out so just give me a kiss now",
+  "Cut my skull with your used razors, carve a heart I'll see you later"
 ];
 
 var splash = ""; // This variable will hold the splash text
@@ -136,7 +141,7 @@ function getSplashVariable() {
           if (track && track["@attr"] && track["@attr"].nowplaying) {
             var artist = track.artist["#text"];
             var songTitle = track.name;
-            splash = "I am currently listening to " + songTitle + " by " + artist;
+            splash = "🎵" + artist + " - " + songTitle;
           } else {
             var randnumber = Math.floor(Math.random() * splashes.length);
             splash = splashes[randnumber];
