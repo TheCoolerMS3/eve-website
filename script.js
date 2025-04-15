@@ -141,7 +141,7 @@ function getSplashVariable() {
           if (track && track["@attr"] && track["@attr"].nowplaying) {
             var artist = track.artist["#text"];
             var songTitle = track.name;
-            splash = "🎵" + artist + " - " + songTitle;
+            splash = "🎵 " + artist + " - " + songTitle;
           } else {
             var randnumber = Math.floor(Math.random() * splashes.length);
             splash = splashes[randnumber];
