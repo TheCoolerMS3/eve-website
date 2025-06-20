@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   background-image: url("media/bg.png");
   background-repeat: repeat;
@@ -13,14 +7,17 @@ body {
   text-align: center;
 }
 
-.left, .right {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.8);
+.left, .middle, .right {
   padding: 15px;
 }
-
+.left{
+  background: rgba(255, 255, 255, 0.8);
+}
 .right {
   background: rgba(255, 255, 255, 0.7);
+}
+.middle {
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .centerAdaptiveImg {

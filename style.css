@@ -12,26 +12,25 @@ body {
 
 .sitebox {
   display: flex;
-  justify-content: center;
   align-items: stretch;
 }
 
-.left, .right {
-  flex-shrink: 0; /* Prevent resizing */
-  height: 600px; /* Fixed height */
-  overflow: auto; /* Enables scrolling if content overflows */
+.left, .middle, .right{
+    width: 300px;
+    height: 600px;
+    padding: 15px;
+    overflow: auto;
 }
-
 .left {
-  width: 300px;
   background: rgba(255, 255, 255, 0.8);
-  padding: 15px;
+}
+.middle {
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .right {
   width: 500px;
   background: rgba(255, 255, 255, 0.7);
-  padding: 15px;
 }
 
 .centerAdaptiveImg {
