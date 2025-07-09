@@ -14,7 +14,7 @@ body {
   background: rgba(255, 255, 255, 0.8);
 }
 .right {
-  background: rgba(255, 255, 255, 0.7);
+  display: none;
 }
 .middle {
   background: rgba(255, 255, 255, 0.75);
