@@ -38,21 +38,18 @@
     ?>
   <div class="showcase">
     <?php
-          $options = ["<a href='https://gallery.fitbit.com/details/5049cf2d-61d5-47c3-92a4-b7f6858c0443'><img width='260px' height='260px' src='/media/showcase/bfdionyowrist.png'></a>", "<a href='/iceos'><img width='260px' height='260px' src='/media/showcase/iceos.png'></a>", "<a href='htt[s://mintydev.games/glasssea'><img width='260px' height='260px' src='/media/showcase/glassseashowcase.png'></a>", "<a href='https://mintydev.games/dhilly6'><img width='260px' height='260px' src='/media/showcase/dhillygamead.png'></a>", "<a href='https://gallery.fitbit.com/details/f8d7c96d-a68c-4695-abda-c1d5c27b1067'><img width='260px' height='260px' src='/media/showcase/hfjone_whtthefuck.png'></a>"];
+          $options = ["<a href='https://gallery.fitbit.com/details/5049cf2d-61d5-47c3-92a4-b7f6858c0443'><img width='260px' height='260px' src='/media/showcase/bfdionyowrist.png'></a>", "<a href='/iceos'><img width='260px' height='260px' src='/media/showcase/iceos.png'></a>", "<a href='https://mintydev.games/glasssea'><img width='260px' height='260px' src='/media/showcase/glassseashowcase.png'></a>", "<a href='https://mintydev.games/dhilly6'><img width='260px' height='260px' src='/media/showcase/dhillygamead.png'></a>", "<a href='https://gallery.fitbit.com/details/f8d7c96d-a68c-4695-abda-c1d5c27b1067'><img width='260px' height='260px' src='/media/showcase/hfjone_whtthefuck.png'></a>"];
           $choice = $options[array_rand($options)];
           echo "$choice";
         ?>
   </div>
-      <a href="https://eve.motorcycles"><img data-hover="<b>Eve's Button</b><br>Link to my website with this if you want!" src="media/eve.png"></a>
+      <a href="https://eve.motorcycles"><img data-hover="<b>Eve</b><br>You may link to my website with this button if you please." src="media/eve.png"></a>
       <a href="https://en.wikipedia.org/wiki/Brat_(album)"><img data-hover="<b>BRAT</b><br>This button is dedicated to the 2024 album 'BRAT' by Charli XCX." src="media/bratbuttonbyeve.gif"></a>
       <details>
         <summary style="cursor: pointer;">Pals!!</summary>
-        <a href="https://toewizard.online"><img data-hover="<b>Azi</b><br>My best friend, they're honestly the coolest person I've ever met." src="/media/azi.png"></a>
-        <a href="http://ivanmarkov.net"><img data-hover="<b>Ivan / LibreIvan</b><br>My first friend, we have a lot of history together and honestly he's awesome." src="/media/marchintosh.png"></a>
-        <a href="https://nek0zyx.lgbt.sh/"><img data-hover="<b>Sam / Nek0zyx / kevadesu</b><br>A fellow developer friend of mine! We go a long way back, and she has some cool projects." src="/media/sam.webp"></a>
-        <img data-hover="<b>Earnest Opal</b><br>The most important person on Pxls." src="/media/erendgosts.gif">
-        <a href="http://empyrean.lol"><img data-hover="<b>Empyrean</b><br>A YouTuber I'm friends with! He's pretty cool!" src="media/empyreanlol.png"></a>
-        <a href="https://greenwizard.neocities.org/"><img data-hover="<b>Greenwizard</b><br>An underrated Pxls user." src="media/greenbutton.png"></a>
+        <a href="https://toewizard.online"><img data-hover="<b>Azi</b><br>My bestest best friend and also a very talented artist." src="/media/azi.png"></a>
+        <a href="http://ivanmarkov.net"><img data-hover="<b>Ivan / LibreIvan</b><br>My first and oldest friend. A real one. Sometimes goes by 'Intervals'." src="/media/marchintosh.png"></a>
+        <a href="https://nek0zyx.lgbt.sh/"><img data-hover="<b>Sam / Nek0zyx / kevadesu</b><br>A fellow developer friend of mine, you may want to check out her projects." src="/media/sam.webp"></a>
       </details>
     </div>
     <div class="middle">
@@ -68,8 +65,8 @@
       <a href="https://mintydev.games/dhilly6"><img data-hover="<b>Dhilly Game 6 Remake</b><br>Released: <img src='media/2025.png'><br>Tools used: Aseprite, GB Studio 4<br>Languages: GB Studio Visual, GBVM<br>Platform: Game Boy, Game Boy Color, SGB<br>For Hack Club's Arcade and High Seas events<br>Open Source<br><br><img src='media/dhillygame6screenshot.png'>" width="60px" height="60px" src="media/dhilly6n.png"></a>
       <a href="/"><img data-hover="<b>Eve's Website 3</b><br>Released: <img src='media/2025.png'><br>Tools used: GNU Nano, Aseprite<br>Languages: PHP, CSS, JavaScript<br>Platform: Web<br>For Hack Club Summer of Making<br>Open Source<br><br><img width='125px' src='media/evesitescreenshot.png'>" src="media/evesite60px.png"></a>
       <a href="https://www.youtube.com/watch?v=RkwXOOBeTpc"><img data-hover="<b>I've Got Some Falling To Do Flash Animation</b><br>Released: <img src='media/2025.png'><br>Tools used: Adobe Animate 2024<br>Platform: Adobe Flash<br>For college<br>Free<br><br><img src='media/fallingscreenshot.png'>" width="60px" height="60px" src="media/falling.png"></a>
-      <a href="https://gallery.fitbit.com/details/6ac1c439-1c07-4190-a9a0-84fb2b682480"><img data-hover="<b>Jade Harley Clockface</b><br>Released: <img src='media/2025.png'><br>Tools used: Visual Studio Code, Aseprite, Fitbit SDK 6<br>Languages: JavaScript<br>Platform: Fitbit OS 5<br>Free" src="https://gallery-assets.fitbit.com/public/NM0kDYGaCY0WBqNlAIJnNnJhC58aNmotNn3qAIBsC2GXCIOZDLGWDF/BIGWNYWXD2ZhCL4YOHooBq3tAIVrO27hBYNoB5FoCLCWNq7l@1x.png" width="60px" height="60px"></a>
-      <a href="https://toewizard.online"><img data-hover="<b>azi's website</b><br>Released: <img src='media/2025.png'><br>Tools used: Visual Studio Code<br>Languages: HTML, CSS, JavaScript<br>Collaborators: <img height='20px' src='media/azi.png'><br>Platform: Web<br>Made for my friend Azi (duh)" src="https://toewizard.online/media/profile.jpeg"></a>
+      <a href="https://gallery.fitbit.com/details/6ac1c439-1c07-4190-a9a0-84fb2b682480"><img data-hover="<b>Jade Harley Clockface</b><br>Released: <img src='media/2025.png'><br>Tools used: Visual Studio Code, Aseprite, Fitbit SDK 6<br>Languages: JavaScript<br>Platform: Fitbit OS 5<br>Free<br><br><img height='300px' src='/media/jadefitbit.jpeg'>" src="https://gallery-assets.fitbit.com/public/NM0kDYGaCY0WBqNlAIJnNnJhC58aNmotNn3qAIBsC2GXCIOZDLGWDF/BIGWNYWXD2ZhCL4YOHooBq3tAIVrO27hBYNoB5FoCLCWNq7l@1x.png" width="60px" height="60px"></a>
+      <a href="https://toewizard.online"><img data-hover="<b>Azi's Website</b><br>Released: <img src='media/2025.png'><br>Tools used: Visual Studio Code<br>Languages: HTML, CSS, JavaScript<br>Collaborators: <img height='20px' src='media/azi.png'><br>Platform: Web<br>Made for my friend Azi (duh)<br>Open Source<br><br><img height='260px' src='/media/azisitescreenshot.png'>" width="60px" src="https://toewizard.online/media/profile.jpeg"></a>
       <a href="https://mintydev.games/glasssea"><img data-hover="<b>The Glass Sea</b><br>Release: TBA<br>Tools used: GameMaker Studio 2 Professional, Aseprite, others<br>Languages: GameMaker Language<br>Collaborators: <img height='20px' src='media/azi.png'> <img height='20px' src='media/marchintosh.png'><br>Platform: Windows, MacOS, Linux, iOS, Android<br><br><img width='390px' src='media/glassseas5.jpg'>" width="60px" height="60px" src="media/glasssea.gif"></a>
       <details>
         <summary style="cursor: pointer;">2024 projects:</summary>
