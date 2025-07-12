@@ -11,7 +11,7 @@
 <body>
   <div class="sitebox">
     <div class="left">
-      <a href="/"><img data-hover="<b>Eve</b><br>Age: 17<br>Gender: Female<br>Current interests: Splatoon 3, Homestuck, hfjONE, Lemon Demon" class="centerAdaptiveImg" width="200" src="/media/evecooltext.png"></a>
+      <a href="/"><img data-hover="<b>Eve</b><br>Age: 17<br>Gender: Female<br>Current interests: Splatoon 3, Homestuck, hfjONE, Lemon Demon, Sewerslvt / Cynthoni" class="centerAdaptiveImg" width="200" src="/media/evecooltext.png"></a>
       <marquee>
         <?php
           $options = ["I've been Google image searching for my really cool wig.", "Welcome back to Trench!", "Welcome to my personal website!"];
